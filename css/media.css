@@ -1,0 +1,159 @@
+/* tablet */
+@media (min-width: 768px) {
+  .container{
+    max-width: 740px;
+    margin: 0 auto;
+  }
+  .header .row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+}
+
+
+
+/* laptop */
+@media (min-width: 992px) {
+
+
+
+
+  .container{
+    max-width: 960px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .primary__menu {
+    width: 65%;
+    padding: 0;
+    height: 750px;
+    padding:0 20px;
+  }
+  .primary__nav a{
+    height: 115px;
+    
+    vertical-align: middle;
+  }
+  .primary__nav li{
+    width: 25%;
+    
+  }
+
+
+  .primary__form {
+    height: 750px;
+    width: 35%;
+    align-items: center;
+
+  }
+  .primary__container{
+    width: 70%;
+    margin-right: 5px;
+  }
+  .adventages {
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+  .adventage__item {
+    align-items: flex-start;
+  
+  }
+  .service-item {
+    width: 400px;
+  }
+
+  footer{
+    height: 120px;
+    line-height: 110px;
+  }
+  .poupup__container{
+    width: 670px;
+    padding: 40px;
+    height: 550px;
+  }
+  .poupup__header img{
+    
+    right: 40px;
+    top:40px;
+  }
+  .poupup__elements{
+    width: 100%;
+    height: 60px;
+    padding: 0px 30px;
+    margin: 20px 0;
+  }
+  .poupup__submit{
+    height: 80px;
+    width: 340px;
+    margin: 0 auto;
+  }
+  #primary__button {
+    width: 250px;
+  }
+h1 {
+  font-size: 60px;
+  padding: 25px;
+}
+.primary p{
+  color: black;
+  font-size: 24px;
+ padding: 25px;
+}
+h2{
+  font-size: 50px;
+}
+.adventage__list{
+  padding-left: 45px ;
+}
+
+
+
+}
+
+/* desctop */
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1140px;
+  }
+  h1 {font-size: 80px;}
+  .adventage__list{
+    padding-left: 90px ;
+  }
+  .primary__form{
+    min-height: 740px;
+  }
+  .primary__menu{
+    min-height: 740px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .header .container {
+    padding: 10px;
+  }
+  .header__order {
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  }
+  .header__phone {font-size: 18px;}
+  .adventage__icon {
+    padding: 30px 0;
+    
+  }
+  .primary__form input {
+    width: 94%;
+    margin-left: 3%;
+  }
+  #primary__button {
+    width: 94%;
+    margin-left: 3%;
+  }
+ 
+}
